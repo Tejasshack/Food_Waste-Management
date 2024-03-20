@@ -22,7 +22,7 @@ app.use(cors())
 
 // MongoDB configuration
 const mongoURI =
-  "mongodb+srv://tejaswi376:0VaLfFIOMb8F27DL@cluster0.qqymdoc.mongodb.net/?retryWrites=true&w=majority"
+  "Mongo Url"
 mongoose
   .connect(mongoURI, {
     useNewUrlParser: true,
