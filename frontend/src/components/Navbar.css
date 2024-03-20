@@ -1,0 +1,122 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 0% 10px; /* Adjusted padding for reduced height */
+}
+
+/* Logo styling */
+.logo {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Navigation buttons */
+.buttons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.buttons li {
+  margin-right: 20px;
+}
+
+/* Button styling */
+.button,
+.dropbtnn,
+.dropdown-contentt a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; /* Add your preferred font */
+}
+
+/* Dropdown container */
+.dropdownn {
+  position: static;
+}
+
+/* Dropdown button styling */
+.dropbtnn {
+  background-color: transparent;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content styling (hidden by default) */
+.dropdown-contentt {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contentt a:hover {
+  background-color: #555;
+}
+
+/* Show the dropdown menu on hover */
+.dropdownn:hover .dropdown-contentt {
+  display: block;
+}
+
+/* Join button styling */
+.join-button {
+  margin-left: 8px;
+}
+
+/* Button styling */
+.button,
+.dropbtnn,
+.dropdown-contentt a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; /* Add your preferred font */
+  transition: background-color 0.3s ease; /* Add smooth transition for color change */
+}
+
+/* ... (other styles) */
+
+/* Change color of buttons on hover */
+.button:hover,
+.dropbtnn:hover,
+.dropdown-contentt a:hover {
+  background-color: linear-gradient(
+    #190335eb,
+    #3d087e,
+    #400885
+  ); /* Change to the desired background color on hover */
+}
+
+.join-button {
+  display: flex;
+  flex-direction: row; /* Display children in a row */
+  align-items: center; /* Align items to the center of the row */
+}
+
+.user-type {
+  color: #fff; /* Adjust the text color as needed */
+  font-size: 17px;
+  text-decoration: underline;
+  padding-top: 47px;
+  margin-right: 10px; /* Add spacing between user type and LOG OUT button */
+}
+
+.join-button a {
+  color: #fff; /* Adjust the text color as needed */
+  text-decoration: none;
+  font-size: 17px;
+}
